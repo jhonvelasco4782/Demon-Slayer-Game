@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;   
+    font-family: 'Poppins', sans-serif;
+    background-color: #54B435;
+    background-image: url('../img/fondo\ purpura.jpg');
+
+}
+
+
+#seleccionar-personaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Fredoka one', cursive;
+    margin-top: 30px;
+}
+
+.subtitulo {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.tarjeta-personaje {
+    width: 220px;
+    height: 100px;
+    background-color: #fb2577a9;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid #9ba002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.tarjeta-personaje:hover {
+    color: rgb(176, 184, 178) !important;
+    box-shadow: 0 4px 16px rgb(255, 2, 179);
+    transition: all 0.2s ease;
+}
+
+.tarjeta-personaje img {
+    width: 80px;
+}
+
+input {
+    display: none;
+}
+
+#boton-personaje {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: #150050;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.404);
+    position: relative;
+}
+
+#boton-personaje:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/mokepon.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>DemonSlayer</title>
+</head>
+
+<body>
+
+    <!--primera seccion que se ve en la pantalla de inicio en nuestro juego-->
+
+    <section id="seleccionar-personaje">
+
+        <h1 class="title">Demon Slayer</h1>
+
+        <h2 class="subtitulo">Elige a tu personaje:</h2>
+
+        <div class="tarjetas">
+            <label class="tarjeta-personaje" for="Tanjiro">
+                <p>Tanjiro<br>Kamado</p>
+                <img src="img/Tanjiro Kamado.png" alt="">
+            </label>
+            <input type="radio" name="personaje" id="Tanjiro">
+
+            <label class="tarjeta-personaje" for="Nezuko">
+                <p>Nezuko<br>Kamado</br></p>
+                <img src="img/Nezuko Kamado.png" alt="">
+            </label>
+            <input type="radio" name="personaje" id="Nezuko">
+
+            <label class="tarjeta-personaje" for="Zenitsu">
+                <p>Zenitsu<br>Agatsuma</p>
+                <img src="img/Zenitsu Agatsuma.png" alt="">
+            </label>
+            <input type="radio" name="personaje" id="Zenitsu">
+        </div>
+        <div class="tarjetas">
+            <label class="tarjeta-personaje" for="Inosuke">
+                <p>Inosuke<br>Hashibira</p>
+                <img src="img/Inosuke Hashibira.png" alt="">
+            </label>
+            <input type="radio" name="personaje" id="Inosuke">
+
+            <label class="tarjeta-personaje" for="Kyojuro">
+                <p>Kyojuro<br>Rengoku</p>
+                <img src="img/Kyōjurō Rengoku.png" alt="">
+            </label>
+            <input type="radio" name="personaje" id="Kyojuro">
+
+            <label class="tarjeta-personaje" for="Giyu">
+                <p>Giyu<br>Tomioka</p>
+                <img src="img/Giyu Tomioka.png" alt="">
+            </label>
+            <input type="radio" name="personaje" id="Giyu">
+        </div>
+
+        <button id="boton-personaje">SELECCIONAR</button>
+    </section>
+
+
+    <!--segunda seccion que se ve en la pantalla de inicio en nuestro juego-->
+
+    <section id="seleccionar-ataque">
+
+        <h1 class="title">Demon Slayer</h1>
+
+        <h2>Selecciona tu ataque</h2>
+
+        <div>
+            <button id="boton-fuego">Fuego 🔥</button>
+            <button id="boton-agua">Agua 💧</button>
+            <button id="boton-tierra">Tierra 🌱</button>
+            <button id="boton-dragon">Dragon 🐲</button>
+            <button id="boton-tormenta">Tormenta 🌀</button>
+            <button id="boton-fantasma">fanstasma 👻</button>
+        </div>
+
+        <div>
+            <section id="mensajes"></section>
+
+            <section id="reiniciar">
+                <button id="boton-reiniciar">Reiniciar</button>
+            </section>
+        </div>
+
+        <div>
+            <p>A tu personaje <span id="personaje-jugador"></span> le restan en vidas <span id="vidas-jugador">3</span>
+            </p>
+            <p>Al personaje enemigo <span id="personaje-enemigo"></span> le restan en vidas <span
+                    id="vidas-enemigo">3</span>
+            </p>
+        </div>
+
+    </section>
+</body>
+
+</html>
